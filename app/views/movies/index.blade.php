@@ -2,8 +2,8 @@
     <h3>{{ $movie->title }}</h3>
     <p>Genres:</p>
     <ul>
-    @foreach($movie->genres as $genre)
+{{--     @foreach($movie->genres as $genre)
         <li>{{ $genre->name }} </li>
-    @endforeach
+    @endforeach --}}
     </ul>
 @endforeach

@@ -1,7 +1,7 @@
 <?php
 
 class Movie extends Eloquent {
-    protected $table = 'movie';
+    protected $table = 'movies';
     public function genres()
     {
     	return $this->belongsToMany('Genre');
