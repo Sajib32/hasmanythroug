@@ -16,7 +16,4 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::get('/movie/index', function()
-{
-	return View::make('movies.index');
-});
+Route::get('/movie/index', 'MovieController@index');
