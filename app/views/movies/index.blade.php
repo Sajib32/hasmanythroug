@@ -1,3 +1,5 @@
+
+<h1>Problem Solved</h1>
 @foreach($movies as $movie)
     <h3>{{ $movie->title }}</h3>
     <p>Genres:</p>
